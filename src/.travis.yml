@@ -1,0 +1,7 @@
+language: python
+python:
+  -  3.12.4
+before scipt:
+  - cd  src
+script:
+- python - teste.py
